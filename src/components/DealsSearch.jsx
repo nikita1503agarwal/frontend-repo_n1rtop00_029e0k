@@ -43,7 +43,7 @@ function DealsSearch() {
   const categories = ['Men','Women','Kids','Sportswear','Shoes','Accessories','Home']
 
   return (
-    <section className="bg-zinc-950 py-6 border-t border-zinc-900">
+    <section id="search" className="bg-zinc-950 py-6 border-t border-zinc-900">
       <div className="max-w-6xl mx-auto px-6">
         <div className="rounded-xl border border-white/10 bg-white/5 p-4 backdrop-blur">
           <div className="grid grid-cols-1 sm:grid-cols-5 gap-3">
